@@ -1,0 +1,72 @@
+/* ================================= 
+  Base Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Gill Sans', sans-serif;
+	line-height: 1.6;
+	color: green;
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+.main-header {
+	text-align: center;
+	background: lightgreen;
+	text-decoration: none;
+}
+
+.main-header a:hover {
+	color: #fff;
+}
+
+.name,
+.main-nav li {
+	margin: 0;
+	display: inline-block;
+}
+
+.main-nav li {
+	padding-right: 5px;
+}
+
+.festivals {
+	text-align: center;
+	border-radius: 20px;
+	background: lightgreen;
+	
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+	.main-header {
+		float: left;
+		width: 100%
+	}
+
+}
