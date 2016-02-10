@@ -7,10 +7,11 @@
 }
 
 body {
-	font-family: 'Gill Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	line-height: 1.6;
-	color: green;
+	color: #3a3a3a;
 	margin: 0;
+
 }
 
 ul {
@@ -25,7 +26,13 @@ div {
 }
 
 img {
-	max-width: 100%;
+	max-width: 98%;
+	max-height: 98%;
+}
+
+a {
+	text-decoration: none;
+
 }
 
 /* ================================= 
@@ -34,28 +41,45 @@ img {
 
 .main-header {
 	text-align: center;
-	background: lightgreen;
+	background: purple;
 	text-decoration: none;
+	border-width: 5px;
+	border-style: solid;
+
+}
+.main-header a {
+	color: #fff;
+
 }
 
 .main-header a:hover {
-	color: #fff;
+	color: lightgreen;
 }
 
 .name,
 .main-nav li {
 	margin: 0;
 	display: inline-block;
+
 }
 
 .main-nav li {
-	padding-right: 5px;
+	padding-right: 10px;
 }
 
 .festivals {
 	text-align: center;
-	border-radius: 20px;
 	background: lightgreen;
+	padding: 10px;
+	
+}
+
+.main-footer {
+	text-align: center;
+	padding: 2em 0;
+	background: purple;
+	border-width: 5px;
+	border-style: solid;
 	
 }
 
@@ -63,10 +87,3 @@ img {
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
-	.main-header {
-		float: left;
-		width: 100%
-	}
-
-}
